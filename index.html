@@ -217,13 +217,14 @@
       position: relative;
       /* relative parent */
       height: 160px;
+      width: 160px;
       border-radius: 0 0 20px 20px;
       overflow: hidden;
     }
 
     .nd_box_img img {
 
-      width: 100px;
+      width: 100%;
       height: 100%;
       object-fit: contain;
       /* safe crop */
@@ -231,7 +232,7 @@
     }
 
     .para_by_n {
-      font-size: 13px;
+      font-size: 15px;
       color: #010101bd;
       font-weight: 800;
     }
@@ -559,6 +560,23 @@
         border-radius: 22px;
       }
     }
+    /* responsive tweaks */
+    @media (max-width:390px) {
+        .para_by_n {
+      font-size: 13px;
+      color: #010101bd;
+      font-weight: 600;
+    }
+     .nd_box_img {
+      position: relative;
+      /* relative parent */
+      height: 130px;
+      width: 130px;
+      border-radius: 0 0 20px 20px;
+      overflow: hidden;
+    }
+  }
+
 
 
 
@@ -799,27 +817,27 @@
           <div class="nd_box_">
             <div class="scnd_line_1">
               <p class="icon_bg">
-                <img src="images/mri.png" alt="Priority Slots">
+                <img src="images/mri.png" loading="lazy" alt="Priority Slots">
               </p>
               <p class="para_by_n">MRI Scan @ ₹ 3,650</p>
             </div>
             <div class="scnd_line_1">
               <p class="icon_bg2">
                 <!-- <i class="fa-solid fa-tags discount-icon"></i> -->
-                <img src="images/mridis.png" alt="Priority Slots">
+                <img src="images/mridis.png" loading="lazy" alt="Priority Slots">
               </p>
               <p class="para_by_n">Get Flat 50% Off</p>
             </div>
             <div class="scnd_line_1">
               <p class="icon_bg3">
                 <!-- <i class="fa-solid fa-money"></i> -->
-                <img src="images/guarantee.png" alt="Priority Slots">
+                <img src="images/guarantee.png" loading="lazy" alt="Priority Slots">
               </p>
               <p class="para_by_n">Best Prices Guaranteed</p>
             </div>
           </div>
           <div class="nd_box_img">
-            <img src="doctor.png" alt="">
+            <img src="doctor.png" loading="lazy" alt="">
           </div>
         </div>
 
@@ -874,11 +892,11 @@
       <div class="classname_by_n" id="slideshow">
         <!-- Slide 1 -->
         <div class="classname_by_n_slide classname_by_n_slide--1 active">
-          <img src="img1.webp" alt="Image 1">
+          <img src="img1.webp" loading="lazy" alt="Image 1">
         </div>
         <!-- Slide 2 -->
         <div class="classname_by_n_slide classname_by_n_slide--2">
-          <img src="img2.webp" alt="Image 2">
+          <img src="img2.webp" loading="lazy" alt="Image 2">
         </div>
 
         <!-- bottom bar -->
@@ -931,19 +949,19 @@
 
       <div class="features_byn">
         <div class="feature-box_byn">
-          <img src="images/stamp.png" alt="Report Accuracy">
+          <img src="images/stamp.png" loading="lazy" alt="Report Accuracy">
           <p><strong>100% Report</strong><br>Accuracy</p>
         </div>
         <div class="feature-box_byn">
-          <img src="images/discount.png" alt="Money Back">
+          <img src="images/discount.png" loading="lazy" alt="Money Back">
           <p><strong>Best Prices</strong><br>Guaranteed</p>
         </div>
         <div class="feature-box_byn">
-          <img src="images/approved.png" alt="Government Certified">
+          <img src="images/approved.png" loading="lazy" alt="Government Certified">
           <p><strong>NABL Approved</strong><br>Labs</p>
         </div>
         <div class="feature-box_byn">
-          <img src="images/energetic.png" alt="Priority Slots">
+          <img src="images/energetic.png" loading="lazy" alt="Priority Slots">
           <p><strong>2 Cr+ Happy </strong><br>Users</p>
         </div>
       </div>
@@ -957,7 +975,7 @@
       <div class="container">
         <div class="text_center_byn mb-20 section-title">
           <h2 style="font-size: 21px;" class="text_center_byn section_by_naveedd sect title">
-            <span class="icon "><img src="images/google.png" class="img-fluid" alt=""></span> &nbsp; Reviews<span
+            <span class="icon "><img src="images/google.png" loading="lazy" class="img-fluid" alt=""></span> &nbsp; Reviews<span
               class="bluecolor"> &nbsp; (4.9/5 Rating)</span>
           </h2>
         </div>
@@ -968,7 +986,7 @@
               <div class="reviewTestimonialIteminnner">
                 <div class="d-flex reviewUserInfoArea">
                   <div class="reviewUserThumbnail">
-                    <img src="images/userThumbnail.webp" class="img-fluid " alt="">
+                    <img src="images/userThumbnail.webp" loading="lazy" class="img-fluid " alt="">
                   </div>
                   <div class="reviewUserInfo">
                     <h4 class="userName">Naveen Kumar</h4>
@@ -997,7 +1015,7 @@
               <div class="reviewTestimonialIteminnner">
                 <div class="d-flex reviewUserInfoArea">
                   <div class="reviewUserThumbnail">
-                    <img src="images/userThumbnail.webp" class="img-fluid " alt="">
+                    <img src="images/revimg.jpg" loading="lazy" class="img-fluid " alt="">
                   </div>
                   <div class="reviewUserInfo">
                     <h4 class="userName">Naveen Kumar</h4>
@@ -1026,7 +1044,7 @@
               <div class="reviewTestimonialIteminnner">
                 <div class="d-flex reviewUserInfoArea">
                   <div class="reviewUserThumbnail">
-                    <img src="images/userThumbnail.webp" class="img-fluid " alt="">
+                    <img src="images/revimg2.jpg" loading="lazy" class="img-fluid " alt="">
                   </div>
                   <div class="reviewUserInfo">
                     <h4 class="userName">Naveen Kumar</h4>
@@ -1055,7 +1073,7 @@
               <div class="reviewTestimonialIteminnner">
                 <div class="d-flex reviewUserInfoArea">
                   <div class="reviewUserThumbnail">
-                    <img src="images/userThumbnail.webp" class="img-fluid " alt="">
+                    <img src="images/revimg3.jpg" loading="lazy" class="img-fluid " alt="">
                   </div>
                   <div class="reviewUserInfo">
                     <h4 class="userName">Naveen Kumar</h4>
@@ -1246,7 +1264,7 @@
       <div class="customePopupWrapper">
         <div class="customePopupinner">
           <!--<span class="closePopupBtn" onclick="closePopupById('testAddedPopup')">-->
-          <!--	<img src="https://kidzz.in/lab/assets/frontend/images/cross_icon.svg" class="">-->
+          <!--	<img src="https://kidzz.in/lab/assets/frontend/images/cross_icon.svg" loading="lazy" class="">-->
           <!--</span>-->
           <form>
             <div class="customePopupHeader">
@@ -1259,7 +1277,7 @@
                     <div class="d-flex justify-content-between testAddedListIteminner">
                       <div class="d-flex leftPart">
                         <div class="thumanil">
-                          <img src="images/test.jpg" class="img-fluid " alt="">
+                          <img src="images/test.jpg" loading="lazy" class="img-fluid " alt="">
                         </div>
                         <div class="content">
                           <h4 class="title">MRI Brain(MRI)</h4>
@@ -1268,7 +1286,7 @@
                       </div>
                       <div class="rightPart">
                         <a href="#" class="deleteBtn">
-                          <img src="images/bin_24px.svg" class="img-fluid" alt="">
+                          <img src="images/bin_24px.svg" loading="lazy" class="img-fluid" alt="">
                         </a>
                       </div>
                     </div>
@@ -1292,13 +1310,13 @@
       <div class="customePopupWrapper">
         <div class="customePopupinner">
           <span class="closePopupBtn" onclick="closePopupById('alertPopup')">
-            <img src="images/cross_icon.svg" class="">
+            <img src="images/cross_icon.svg" loading="lazy" class="">
           </span>
 
           <div class="customePopupBody">
             <div class="alertPopupContentArea">
               <div class="icon">
-                <img src="images/alert-icon.png" class="img-fluid" alt="">
+                <img src="images/alert-icon.png" loading="lazy" class="img-fluid" alt="">
               </div>
               <div class="content">
                 <h4 class="ttl">Alert!</h4>
@@ -1336,37 +1354,37 @@
 
               <div class="swiper-slide">
                 <div class="partnerLogoBox">
-                  <img src="images/images.png" class="img-fluid " alt="">
+                  <img src="images/images.png" loading="lazy" class="img-fluid " alt="">
                 </div>
               </div>
               <div class="swiper-slide">
                 <div class="partnerLogoBox">
-                  <img src="images/nueclear-healthcare.webp" class="img-fluid " alt="">
+                  <img src="images/nueclear-healthcare.webp" loading="lazy" class="img-fluid " alt="">
                 </div>
               </div>
               <div class="swiper-slide">
                 <div class="partnerLogoBox">
-                  <img src="images/redclif-labs.png" class="img-fluid " alt="">
+                  <img src="images/redclif-labs.png" loading="lazy" class="img-fluid " alt="">
                 </div>
               </div>
               <div class="swiper-slide">
                 <div class="partnerLogoBox">
-                  <img src="images/small-logo.png" class="img-fluid " alt="">
+                  <img src="images/small-logo.png" loading="lazy" class="img-fluid " alt="">
                 </div>
               </div>
               <div class="swiper-slide">
                 <div class="partnerLogoBox">
-                  <img src="images/logo%20%281%29.png" class="img-fluid " alt="">
+                  <img src="images/logo%20%281%29.png" loading="lazy" class="img-fluid " alt="">
                 </div>
               </div>
               <div class="swiper-slide">
                 <div class="partnerLogoBox">
-                  <img src="images/logo_1.png" class="img-fluid " alt="">
+                  <img src="images/logo_1.png" loading="lazy" class="img-fluid " alt="">
                 </div>
               </div>
               <div class="swiper-slide">
                 <div class="partnerLogoBox">
-                  <img src="images/d_plus_logo.png" class="img-fluid " alt="">
+                  <img src="images/d_plus_logo.png"  loading="lazy" class="img-fluid " alt="">
                 </div>
               </div>
             </div>
@@ -1846,7 +1864,7 @@
                       <div class="d-flex justify-content-between testAddedListIteminner">
                         <div class="d-flex leftPart">
                           <div class="thumanil">
-                            <img src="https://kidzz.in/lab/assets/images/test/lab_test.png" class="img-fluid" alt="">
+                            <img src="https://kidzz.in/lab/assets/images/test/lab_test.png"   class="img-fluid" alt="" >
                           </div>
                           <div class="content">
                             <h4 class="title">${test.name}</h4>
